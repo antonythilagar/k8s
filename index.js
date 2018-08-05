@@ -9,5 +9,5 @@ res.end('Hello World\n');
 });
 
 server.listen(port, () => {
-    console.log(`Server running on port: ${port}`);
+    console.log(`Hello from kubernetes`);
 });
